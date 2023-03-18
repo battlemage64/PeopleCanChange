@@ -1,0 +1,30 @@
+﻿<Properties>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PCC_Code/SettingsV4.cs">
+    <Files>
+      <File FileName="PCC_Code/SettingsV4.cs" Line="245" Column="23" />
+      <File FileName="PCC_Code/GainTrait.cs" Line="10" Column="1" />
+      <File FileName="PCC_Code/SettingsV3.cs.txt" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PCC_Code" expanded="True">
+            <Node name="PCC_Code" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="SettingsV4.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

@@ -1,0 +1,31 @@
+Occasionally, colonists will change their minds about things. They can gain a trait, lose a trait, or have the trait's degree change.
+
+Overview:
+Traits can be gained as long as a colonist doesn't have the max number of traits already (the max number can be changed in the settings but defaults to 4)
+Traits can be lost (minimum traits also configurable)
+Traits with multiple degrees can change degrees
+
+A few traits won't change, be removed, or be added (unless you set them to in the settings window), for various reasons:
+Beauty traits, annoying voice, creepy breathing (physical not mental)
+Brawler because I personally think Brawler is just stupid and your best shooter becoming a brawler is super annoying.
+
+Vanilla traits relating to sexuality do not change by default. This can be enabled in the simple settings window, or can be enabled trait-by-trait in the advanced settings.
+
+Fully compatible with modded traits! This can be toggled in the settings (disabled by default to avoid mod conflicts). Also optional is the minimum and maximum number of traits a pawn can have (defaults to 4).
+
+If you want to choose manually which traits can change, enable the advanced settings in the Mod Settings window.
+Once there, click a trait to enable/disable it (they're sorted into Will Change and Won't Change lists).
+When you go to exit, DO NOT switch back to the simple settings. Leave it in advanced move and click "Close."
+
+Events may cause a colonist to change their ways (e.g. a colonist is happy for a while and gains optimist):
+-Once a pawn is happy or about to break CONSTANTLY for long enough, they can gain Optimist or Depressive. It's about a once-per-quadrum timer for a 1 in 2 chance (average 2 quadrums to occur), which happens quicker if they're in a better/worse mood. If their mood ever dips below 70/above minor break, the count resets.
+-Pawns have a small chance to become Cannibal when consuming human meat (1 in 100 for cooked meat, 1 in 300 for raw).
+-Pawns with Body Purist have a 1 in 3 chance per quadrum to grow accustomed to their new body and forget their body purism. There's an additional 1 in 3 chance (1 in 9 total) to then become Transhumanist, but this is unlikely because they're going against their previous belief so strongly.
+
+Supports versions: 1.1, 1.0 (the 1.0 version does not receive new updates)
+
+Can be added to any existing save file! Can also be removed from a save file, although you may get a one-time error (which you can safely ignore).
+
+Comment any bugs or suggestions! (especially bugs) I made this mod a long time ago and it's kind of a mess, so there probably won't be many more major updates.
+
+Huge thanks to SY1102 for translating this mod into traditional Chinese!
