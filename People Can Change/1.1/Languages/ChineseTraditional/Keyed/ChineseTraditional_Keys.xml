@@ -22,10 +22,10 @@
   <PCC_Cannibal>特性：食人族</PCC_Cannibal>
   <PCC_Transhumanist>特性：超人主義</PCC_Transhumanist>
   <PCC_PuristLost>特性移除：人體主義</PCC_PuristLost>
-  <PCC_OptimistMessage>{0}過了一段長期的幸福生活，讓{0_pronoun}相信生活非常美好，即使是在這邊緣星球。{0_pronoun}現在是{1}！</PCC_OptimistMessage>
+  <PCC_OptimistMessage>{0}過了一段長期的幸福生活，讓{0_pronoun}相信生活非常美好，即使是在這邊緣星球。{0_pronoun}現在是樂觀注意者！</PCC_OptimistMessage>
   <PCC_DepressiveMessage>{0}面對接踵而來的壓力讓{0_pronoun}導致永久性憂鬱。</PCC_DepressiveMessage>
   <PCC_CannibalMessage>{0}吃了人肉後發現到……{0_pronoun}其實有點喜歡。</PCC_CannibalMessage>
   <PCC_TranshumanistMessage>{0}習慣了義肢強化的身體，雖然不是狂信者但也不再討厭{0_pronoun}現在的變化。</PCC_TranshumanistMessage>
   <PCC_PuristLostMessage>{0}與義肢相處的時間已經讓{0_pronoun}習慣了一個更好的身體，雖然不是很喜歡，但也不再討厭它了。</PCC_PuristLostMessage>
-  
+
 </LanguageData>
