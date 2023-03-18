@@ -29,6 +29,6 @@
   <PCC_PuristLostMessage>{0}與義肢相處的時間已經讓{0_pronoun}習慣了一個更好的身體，雖然不是很喜歡，但也不再討厭它了。</PCC_PuristLostMessage>
   <PCC_ChangeFreq>改變機率(如果你覺得發生太頻繁)：</PCC_ChangeFreq>
   <PCC_RemoveFreq>遺忘機率(如果你覺得發生太頻繁)：</PCC_RemoveFreq>
-  <PCC_OddsExplanation>向右移動為提高發生機率，向左為降低發生機率，設置為最左時則關閉。</PCC_OddsExplanation>
+  <PCC_OddsExplanation>向右為提高發生機率，向左為降低發生機率，設置為最左時則關閉。</PCC_OddsExplanation>
 
 </LanguageData>
