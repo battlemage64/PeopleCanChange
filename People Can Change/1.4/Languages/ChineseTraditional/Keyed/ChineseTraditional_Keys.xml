@@ -30,7 +30,7 @@
   <PCC_DoOptimistDepressive>當心情值增減的持續時間達成條件，分別獲得樂觀/憂鬱。</PCC_DoOptimistDepressive>
   <PCC_ChangeFreq>改變機率(如果你覺得發生太頻繁)：</PCC_ChangeFreq>
   <PCC_RemoveFreq>遺忘機率(如果你覺得發生太頻繁)：</PCC_RemoveFreq>
-  <PCC_OddsExplanation>向右移動為提高發生機率，向左為降低發生機率，設置為最左時則關閉。</PCC_OddsExplanation>
+  <PCC_OddsExplanation>向右為提高發生機率，向左為降低發生機率，設置為最左時則關閉。</PCC_OddsExplanation>
   <PCC_TSNeverChangeModConflict>永不改變(需要：模組衝突)</PCC_TSNeverChangeModConflict>
   <PCC_TSNeverChange>永不改變</PCC_TSNeverChange>
   <PCC_TSAnyChange>可增減</PCC_TSAnyChange>
