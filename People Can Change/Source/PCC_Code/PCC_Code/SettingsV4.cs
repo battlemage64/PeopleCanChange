@@ -132,7 +132,7 @@ namespace PCC_Code
 
                     if (ls.ButtonText("PCC_Next".Translate()))
                     {
-                        if (pageNum < (DefDatabase<TraitDef>.AllDefs.Count() / entriesPerPage)) // First page is 1 
+                        if (pageNum < ((DefDatabase<TraitDef>.AllDefs.Count() + entriesPerPage - 1) / entriesPerPage)) // First page is 1. Formula: divide and round up a by b: (a+b-1)/b for integer division
                             pageNum++;
                     }
                     if (ls.ButtonText("PCC_Previous".Translate()))
@@ -142,7 +142,8 @@ namespace PCC_Code
                     }
                     ls.Gap();
 
-                    foreach (TraitDef def in DefDatabase<TraitDef>.AllDefs.OrderBy(item => item.defName).ToList().GetRange((pageNum-1) * entriesPerPage, entriesPerPage)) { // Should skip Defs from mods not currently loaded, which will have settings saved but no Def to find them from
+                    List<TraitDef> l = DefDatabase<TraitDef>.AllDefs.OrderBy(item => item.defName).ToList();
+                    foreach (TraitDef def in l.Skip((pageNum-1)*entriesPerPage).Take(entriesPerPage)) { // Should skip Defs from mods not currently loaded, which will have settings saved but no Def to find them from
                         ls.Label(def.defName + " (" + def.degreeDatas[0].label + "): ");                        
                         Widgets.Dropdown(ls.GetRect(25f), def, getTraitPayload, DropdownForTrait, TraitSettingString(settings.GetTraitSetting(def.defName)));
                         ls.Gap();
