@@ -30,5 +30,6 @@
   <PCC_ChangeFreq>改變機率(如果你覺得發生太頻繁)：</PCC_ChangeFreq>
   <PCC_RemoveFreq>遺忘機率(如果你覺得發生太頻繁)：</PCC_RemoveFreq>
   <PCC_OddsExplanation>向右為提高發生機率，向左為降低發生機率，設置為最左時則關閉。</PCC_OddsExplanation>
-
+  <PCC_Next>下一頁 --></PCC_Next>
+  <PCC_Previous><-- 上一頁</PCC_Previous>
 </LanguageData>

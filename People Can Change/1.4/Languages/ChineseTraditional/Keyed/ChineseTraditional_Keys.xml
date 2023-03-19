@@ -37,5 +37,6 @@
   <PCC_TSAddNoRemove>只增加</PCC_TSAddNoRemove>
   <PCC_TSRemoveNoAdd>只減去</PCC_TSRemoveNoAdd>
   <PCC_SettingsListBegin>特性個別設置:</PCC_SettingsListBegin>
-
+  <PCC_Next>下一頁</PCC_Next>
+  <PCC_Previous>上一頁</PCC_Previous>
 </LanguageData>

@@ -30,4 +30,6 @@
 <PCC_ChangeFreq>Chance for a colonist's trait not to change (if you think it happens too often): </PCC_ChangeFreq>
 <PCC_RemoveFreq>Chance for a colonist's trait not to be removed (if you think it happens too often): </PCC_RemoveFreq>
 <PCC_OddsExplanation>For both of the above sliders: higher (right) means more frequent. Lower (left) means less frequent. Set all the way to the left to turn the event off.</PCC_OddsExplanation>
+<PCC_Next>Next page --></PCC_Next>
+<PCC_Previous><-- Previous page</PCC_Previous>
 </LanguageData>

@@ -37,5 +37,6 @@
 <PCC_TSAddNoRemove>Gain but never lose</PCC_TSAddNoRemove>
 <PCC_TSRemoveNoAdd>Lose but never gain</PCC_TSRemoveNoAdd>
 <PCC_SettingsListBegin>Individual trait settings:</PCC_SettingsListBegin>
-
+<PCC_Next>Next page</PCC_Next>
+<PCC_Previous>Previous page</PCC_Previous>
 </LanguageData>

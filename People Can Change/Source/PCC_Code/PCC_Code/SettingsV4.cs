@@ -75,6 +75,10 @@ namespace PCC_Code
     {
         //private bool recheckDefList = true;
         public static Vector2 scrollPosition = new Vector2();
+        int pageNum = 1;
+        int entriesPerPage = 20;
+
+
         public static PCCSettings settings;
         public PCC_Mod(ModContentPack content) : base(content)
         {
@@ -87,7 +91,7 @@ namespace PCC_Code
         public override void DoSettingsWindowContents(Rect inRect) {
             Listing_Standard ls = new Listing_Standard();
             Rect rect = new Rect(inRect.x, inRect.y, inRect.width, inRect.height);
-            Rect rect2 = new Rect(0f, 0f, inRect.width - 16f, inRect.height + DefDatabase<TraitDef>.AllDefs.Count() * 55); //  + DefDatabase<TraitDef>.AllDefs.Count() * 55
+            Rect rect2 = new Rect(0f, 0f, inRect.width - 16f, inRect.height + (entriesPerPage+2) * 55); // Add 2 to give some extra padding for bottom elements. Previous formula: + DefDatabase<TraitDef>.AllDefs.Count() * 55
             Widgets.BeginScrollView(rect, ref scrollPosition, rect2, true);
             ls.Begin(rect2);
             ls.Label("PCC_MaxTraitsExplanation".Translate());
@@ -124,7 +128,21 @@ namespace PCC_Code
                     if (ls.ButtonText("PCC_Hide".Translate())) {
                         settings.hideTraitList = true;
                     }
-                    foreach (TraitDef def in DefDatabase<TraitDef>.AllDefs.OrderBy(item => item.defName).ToList()) { // Should skip Defs from mods not currently loaded, which will have settings saved but no Def to find them from
+                    ls.Gap();
+
+                    if (ls.ButtonText("PCC_Next".Translate()))
+                    {
+                        if (pageNum < (DefDatabase<TraitDef>.AllDefs.Count() / entriesPerPage)) // First page is 1 
+                            pageNum++;
+                    }
+                    if (ls.ButtonText("PCC_Previous".Translate()))
+                    {
+                        if (pageNum > 1) // First page is 1 
+                            pageNum--;
+                    }
+                    ls.Gap();
+
+                    foreach (TraitDef def in DefDatabase<TraitDef>.AllDefs.OrderBy(item => item.defName).ToList().GetRange((pageNum-1) * entriesPerPage, entriesPerPage)) { // Should skip Defs from mods not currently loaded, which will have settings saved but no Def to find them from
                         ls.Label(def.defName + " (" + def.degreeDatas[0].label + "): ");                        
                         Widgets.Dropdown(ls.GetRect(25f), def, getTraitPayload, DropdownForTrait, TraitSettingString(settings.GetTraitSetting(def.defName)));
                         ls.Gap();
