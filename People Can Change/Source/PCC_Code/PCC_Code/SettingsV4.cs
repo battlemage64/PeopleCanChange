@@ -125,7 +125,7 @@ namespace PCC_Code
                         settings.hideTraitList = true;
                     }
                     foreach (TraitDef def in DefDatabase<TraitDef>.AllDefs.OrderBy(item => item.defName).ToList()) { // Should skip Defs from mods not currently loaded, which will have settings saved but no Def to find them from
-                        ls.Label(def.defName + ": ");                        
+                        ls.Label(def.defName + " (" + def.degreeDatas[0].label + "): ");                        
                         Widgets.Dropdown(ls.GetRect(25f), def, getTraitPayload, DropdownForTrait, TraitSettingString(settings.GetTraitSetting(def.defName)));
                         ls.Gap();
                     }

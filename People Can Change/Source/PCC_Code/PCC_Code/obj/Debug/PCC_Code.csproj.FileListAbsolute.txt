@@ -41,3 +41,9 @@
 /Users/ardenkolodner/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/People Can Change/1.3/Assemblies/PCC_Code.pdb
 /Users/ardenkolodner/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/People Can Change/1.4/Assemblies/PCC_Code.dll
 /Users/ardenkolodner/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/People Can Change/1.4/Assemblies/PCC_Code.pdb
+/Users/ardenkolodner/Desktop/Coding/PeopleCanChange/People Can Change/1.4/Assemblies/PCC_Code.dll
+/Users/ardenkolodner/Desktop/Coding/PeopleCanChange/People Can Change/1.4/Assemblies/PCC_Code.pdb
+/Users/ardenkolodner/Desktop/Coding/PeopleCanChange/People Can Change/Source/PCC_Code/PCC_Code/obj/Debug/PCC_Code.csproj.AssemblyReference.cache
+/Users/ardenkolodner/Desktop/Coding/PeopleCanChange/People Can Change/Source/PCC_Code/PCC_Code/obj/Debug/PCC_Code.csproj.CoreCompileInputs.cache
+/Users/ardenkolodner/Desktop/Coding/PeopleCanChange/People Can Change/Source/PCC_Code/PCC_Code/obj/Debug/PCC_Code.dll
+/Users/ardenkolodner/Desktop/Coding/PeopleCanChange/People Can Change/Source/PCC_Code/PCC_Code/obj/Debug/PCC_Code.pdb
