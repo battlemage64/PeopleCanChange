@@ -39,4 +39,5 @@
 <PCC_SettingsListBegin>Individual trait settings:</PCC_SettingsListBegin>
 <PCC_Next>Next page</PCC_Next>
 <PCC_Previous>Previous page</PCC_Previous>
+<PCC_AgeThresExplanation>Colonists must be this old for traits to change: </PCC_AgeThresExplanation>
 </LanguageData>

@@ -17,6 +17,7 @@ namespace PCC_Code
         public bool sexualitiesAllowedToChange = false; // defaults to false by verdict of friends more into social justice than me
         public bool moddedTraits = true;
         public bool usingNewSelector = true;
+        public int ageLowerThreshold = 0;
 
         Dictionary<string, TraitSetting> traitSettings = new Dictionary<string, TraitSetting>(); // where the string is the defName of the TraitDef in question
 
@@ -49,6 +50,7 @@ namespace PCC_Code
             Scribe_Values.Look(ref moddedTraits, "moddedTraits", true);
             Scribe_Values.Look(ref usingNewSelector, "usingNewSelector", true);
             Scribe_Values.Look(ref doOptimistDepressive, "doOptimistDepressive", true);
+            Scribe_Values.Look(ref ageLowerThreshold, "ageLowerThreshold", 0);
 
             Scribe_Collections.Look(ref traitSettings, "traitSettings", LookMode.Value);
             if (traitSettings == null) traitSettings = new Dictionary<string, TraitSetting>();
@@ -108,6 +110,9 @@ namespace PCC_Code
             settings.freqRemove = ls.Slider(settings.freqRemove, 0, 10);
 
             ls.CheckboxLabeled("PCC_DoOptimistDepressive".Translate(), ref settings.doOptimistDepressive);
+
+            ls.Label("PCC_AgeThresExplanation".Translate() + ((int)settings.ageLowerThreshold).ToString());
+            settings.ageLowerThreshold = (int)ls.Slider(settings.ageLowerThreshold, 0, 25);
 
             ls.Label("PCC_OddsExplanation".Translate());
             if (!settings.usingNewSelector) { // old trait selector
