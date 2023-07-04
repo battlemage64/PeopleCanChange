@@ -45,7 +45,7 @@ namespace PCC_Code
 			Scribe_Values.Look(ref maxTraits, "maxTraits", 4f);
             Scribe_Values.Look(ref minTraits, "minTraits", 1f);
             Scribe_Values.Look(ref freqChange, "FreqChange", 10f);
-            Scribe_Values.Look(ref freqChange, "FreqRemove", 10f);
+            Scribe_Values.Look(ref freqRemove, "FreqRemove", 10f);
             Scribe_Values.Look(ref sexualitiesAllowedToChange, "gayAllowedToChange", false); // the tag is called gay as a holdover from previous versions, so it's save-compatible
             Scribe_Values.Look(ref moddedTraits, "moddedTraits", true);
             Scribe_Values.Look(ref usingNewSelector, "usingNewSelector", true);
