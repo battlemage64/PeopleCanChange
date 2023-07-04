@@ -560,6 +560,7 @@ namespace PCC_Code
         public static bool PawnIsInvalid(Pawn pawn, bool outputWhy)
         {
             List<Thought> outThoughts = new List<Thought>();
+            if (pawn.needs.mood == null) return true; // For Android Tiers Reforged compatibility
             pawn.needs.mood.thoughts.GetAllMoodThoughts(outThoughts); // For some reason, just searching thoughts.memories.Memories doesn't show non-social thoughts
             foreach (Thought thought in outThoughts)
             {

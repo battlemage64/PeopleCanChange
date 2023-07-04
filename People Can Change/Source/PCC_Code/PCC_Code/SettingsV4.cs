@@ -43,8 +43,8 @@ namespace PCC_Code
             base.ExposeData();
 			Scribe_Values.Look(ref maxTraits, "maxTraits", 4f);
             Scribe_Values.Look(ref minTraits, "minTraits", 1f);
-            Scribe_Values.Look(ref maxTraits, "FreqChange", 10f);
-            Scribe_Values.Look(ref minTraits, "FreqRemove", 10f);
+            Scribe_Values.Look(ref freqChange, "FreqChange", 10f);
+            Scribe_Values.Look(ref freqChange, "FreqRemove", 10f);
             Scribe_Values.Look(ref sexualitiesAllowedToChange, "gayAllowedToChange", false); // the tag is called gay as a holdover from previous versions, so it's save-compatible
             Scribe_Values.Look(ref moddedTraits, "moddedTraits", true);
             Scribe_Values.Look(ref usingNewSelector, "usingNewSelector", true);
@@ -287,7 +287,68 @@ namespace PCC_Code
             "DeathKnight",
             "TM_Monk",
             "TM_Commander",
-            "TM_SuperSoldier" // end A Rimworld Of Magic
+            "TM_SuperSoldier", // end A Rimworld Of Magic
+            // begin Kure's Rimworld of Magic Class Expansion Pack
+            "TM_RedMage",
+"TM_Ninja",
+"TM_ElementalGunner",
+"TM_Bombardier",
+"TM_Railbreaker",
+"TM_Samurai",
+"TM_Gadgeteer",
+"TM_WindMage",
+"TM_Medic",
+"TM_ChromaMage",
+"TM_Harbinger",
+"TM_Reaper",
+"TM_Berserker",
+"TM_Scion",
+"TM_Plaguedoctor",
+"TM_Cleric",
+"TM_Arbormancer",
+"TM_Chainwarden",
+"TM_Ambusher",
+"TM_Saboteur",
+"TM_Keeper",
+"TM_Pridestalker",
+"TM_Starseeker",
+"TM_Aspirant",
+"TM_Hawkeye",
+"TM_Atronach",
+"TM_SupportSpecialist",
+"TM_Scrapper",
+"TM_Oracle",
+"TM_Mystic",
+"TM_Spellbreaker",
+"TM_Duskbringer",
+"TM_Thunderblessed",
+"TM_Deadeye",
+"TM_Spellthief",
+"TM_Dragoon",
+"TM_BlackMage",
+"TM_Scholar",
+"TM_Gunbreaker",
+"TM_Gunner",
+"TM_Warrior",
+"TM_Nomad",
+"TM_Guardian",
+"TM_Holosmith",
+"TM_Troubadour",
+"TM_Gambler",
+"TM_Chef",
+"TM_Miner",
+"TM_Striker",
+"TM_RuneKnight",
+"TM_BlossomBlader",
+"TM_Ravenous",
+"TM_MechHunter",
+"TM_Gunslinger",
+"TM_Shadowbringer",
+"TM_Warden",
+"TM_Chempunk",
+"TM_Explorer",
+"TM_Architect"
+            // end Kure's Rimworld of Magic Class Expansion Pack
         };
     }
 }
